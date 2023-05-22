@@ -8,5 +8,5 @@ const translation = {
   parsing: 'Ресурс не содержит валидный RSS',
   unknown: 'Неизвестная ошибка',
 };
-  
+
 export default translation;
