@@ -40,7 +40,7 @@ const uploadChannelFirst = (url, watchedState) => {
       } else {
         watchedState.error = 'unknown';
       }
-      watchedState.status = 'ivalid';
+      watchedState.status = 'failure';
     });
 };
 
