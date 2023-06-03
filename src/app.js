@@ -19,16 +19,6 @@ const app = (i18n) => {
   };
 
   const state = {
-    form: {
-      valid: true,
-      processState: 'filling',
-      processStateError: null,
-      feedback: null,
-    },
-    loadingProcess: {
-      status: null,
-      loadingProcessError: null,
-    },
     status: 'initial',
     channels: [],
     posts: [],
