@@ -64,7 +64,7 @@ const app = (i18n) => {
       .catch((err) => {
         const { errors } = err;
         [watchedState.error] = errors;
-        watchedState.status = 'failed';
+        watchedState.status = 'invalid';
       });
   });
 
