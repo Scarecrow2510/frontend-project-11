@@ -3,7 +3,6 @@
 ### Статус тестов и линтера
 
 [![Actions Status](https://github.com/Scarecrow2510/frontend-project-11/workflows/hexlet-check/badge.svg)](https://github.com/Scarecrow2510/frontend-project-11/actions)
-[![Node.js CI]
 [![Maintainability](https://api.codeclimate.com/v1/badges/6dc2d49471762d557d38/maintainability)](https://codeclimate.com/github/Scarecrow2510/frontend-project-11/maintainability)
 
 ### Учебный проект Хекслет
