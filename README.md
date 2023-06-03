@@ -26,4 +26,4 @@ RSS agregator - сервис для агрегации RSS-потоков, с п
 
 ### Приложение
 
-[Демо RSS]()
+[Демо RSS](https://frontend-project-11-dt4jltt73-scarecrow2510.vercel.app)
