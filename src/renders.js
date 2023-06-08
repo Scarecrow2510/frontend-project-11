@@ -9,7 +9,7 @@ const renderModal = (watchedState, elements) => {
 };
 
 const renderForm = (watchedState, elements, i18n) => {
-  if (watchedState.status === 'invalid') {
+  if (watchedState.form.processState === 'invalid') {
     elements.input.classList.add('is-invalid');
     elements.input.focus();
     elements.feedback.className = 'text-danger';
@@ -25,7 +25,7 @@ const renderForm = (watchedState, elements, i18n) => {
     elements.button.disabled = false;
     elements.feedback.className = 'text-success';
     elements.feedback.textContent = i18n.t('success');
-  } else if (watchedState.status === 'failure') {
+  } else if (watchedState.loadingProcess.status === 'failure') {
     elements.input.classList.add('is-invalid');
     elements.input.readOnly = false;
     elements.input.focus();
